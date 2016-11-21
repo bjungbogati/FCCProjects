@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Forecast</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/genericons/3.1/genericons.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="script.js"> </script>
+    <style type="text/css">
+
+html {
+  background: #ddd;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+body {
+  background: none;
+}
+
+h1,
+.weather-info,
+.location,
+.temp {
+  text-align: center;
+}
+
+.weather {
+    color: #fff;
+    max-width: 500px;
+    height: auto;
+    margin: 30px auto;
+    background: #000;
+    border-radius: 4px;
+    opacity: 0.7;
+    padding: 50px;
+    border-radius: 10%;}
+
+.temp {
+  font-size: 600%;
+  -webkit-user-select: none;
+  user-select: none;
+  margin: 30px;
+}
+
+.temp span {
+  cursor: pointer;
+}
+
+.weather-info {
+  margin: 30px;
+  font-size: 200%;
+}
+
+.location {
+  font-size: 350%;
+  margin: 50px 0;
+}
+
+
+#container{
+  width:800px;
+  margin:50px auto;
+  padding: 20px;
+  width:50%;
+}
+#container h2{
+  text-align:center;
+  color:#045;
+}</style>
+</head>
+<body>
+<div class="container">
+  <div class="weather">
+      <h1>Weather Forecast</h1>
+      <div id="temp" class="temp"><span></span></div>
+    <div class="weather-info">
+      <span id="weather-type"></span>
+      <img src="" alt="No API Response">
+      <span id="wind-speed"></span>
+    </div>
+  <div id="location" class="location"></div>
+  </div>
+</div>
+</body>
+</html>

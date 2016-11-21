@@ -1,0 +1,58 @@
+body {
+	background:url('http://lovebeingretired.com/wp-content/uploads/2013/04/Searching-on-ladder.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+
+#content {
+	margin:10px auto;
+	width:500px;
+	height:auto;
+	text-align:center;
+
+}
+
+h1{
+
+	color:#fff;
+	font-size:3em;
+	background:#000;
+	padding:15px 5px;
+	border-radius:5px;
+	width:100%;
+	opacity:.7;
+}
+
+button {
+	display:inline;
+    width:150px;
+	height:75px;
+	margin:0 0px 0 -200px;
+	border-radius:0px;
+}
+
+.btn-container {
+	
+	width:700px;
+	margin:70% 0 0;
+}
+
+
+input {
+	display:inline;
+	float:left;
+width:500px;
+padding:15px 0;
+font-size:2em;
+border:solid 1px #444;
+border-radius:10px;
+
+}
+
+a {
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	font-size:1.5em;
+}

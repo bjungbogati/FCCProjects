@@ -1,0 +1,137 @@
+.mid-purple { color: #6441A5; }
+.dark-purple { color: #3B2064; }
+
+body {
+	background-color: white;
+	color: white;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+a {
+	color: #6441A5;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+a:hover {
+	color: #925FEF;
+}
+
+.container {
+	margin: 0 auto;
+	margin:200px auto 100px;
+	width: 450px;
+	border-raidus:10px;
+	border: 1px solid #6441A5;
+}
+
+.twitch-logo {
+	position: absolute;
+	font-size: 32px;
+	width:450;
+	top: 32px;
+}
+
+.sort {
+	margin-bottom: 12px;
+}
+
+.sort button {
+	border: 0;
+	background-color: #6441A5;
+	color: white;
+	width: 150px;
+	height: 60px;
+	letter-spacing: 4px;
+}
+
+.sort button:hover,
+.sort button:active {
+	background-color: #925FEF;
+}
+
+#search-channel {
+	margin-bottom: 6px;
+}
+
+#add-channel {
+	margin-bottom: 12px;
+}
+
+
+/* many thanks to Nick R on stackoverflow, whose example I used to learn how to style input submit buttons*/
+/* http://stackoverflow.com/users/2470724/nick-r */
+input[type=submit] {
+	padding: 4px 16px; 
+	background: #6441A5;
+	color: white;
+	border: 0 none;
+	cursor:pointer;
+	border-radius: 6px;
+}
+
+input[type=submit]:hover {
+	background: #925FEF;
+}
+
+.channel-card {
+	border-top: 1px solid #6441A5;
+	width: 450px;
+	padding: 8px;
+	height: 100px;
+	padding: 0px;
+	color: black;
+}
+
+.channel-card h1 {
+	font-size: 20px;
+	margin-top: 12px;
+	margin-bottom: 6px;
+}
+.channel-card h2 {
+	display: inline;
+	font-size: 10px;
+	color: #999999;
+}
+.channel-card h3 {
+	display: inline;
+	font-size: 16px;
+	color: #32323E;
+}
+.channel-card h4 {
+	margin-top: 8px;
+	font-size: 12px;
+	color: #8C8CA0;
+}
+
+.card-logo {
+	display: inline-block;
+	float: left;
+	margin-right: 8px;
+}
+
+.status {
+	margin: 8px;
+	display: inline-block;
+	float: right;
+}
+
+.status-online {
+	color: green;
+}
+
+.status-offline {
+	color: #CCC;
+}
+
+.status-error {
+	color: red;
+}
+
+#footer {
+	position: absolute;
+	color: #8C8CA0;
+	font-size: 1em;
+	margin: 10px;
+	text-align:center;
+}
